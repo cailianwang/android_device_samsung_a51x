@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a51x/recove
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_a51x
 PRODUCT_DEVICE := a51x
-PRODUCT_MODEL := SM-A516U
+PRODUCT_MODEL := SM-A516B
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
