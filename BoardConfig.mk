@@ -136,15 +136,3 @@ TW_USE_TOOLBOX := true
 TARGET_USES_MKE2FS := true
 TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
-
-#SHRP add
-SHRP_DEVICE_CODE := a51x
-SHRP_MAINTAINER := wang
-SHRP_REC_TYPE := Treble
-SHRP_DEVICE_TYPE := A_Only
-SHRP_REC := /dev/block/bootdevice/by-name/recovery
-SHRP_INTERNAL := /sdcard
-SHRP_EXTERNAL := /external_sd
-SHRP_OTG := /usb_otg
-SHRP_FLASH := 1
-SHRP_DARK := true
